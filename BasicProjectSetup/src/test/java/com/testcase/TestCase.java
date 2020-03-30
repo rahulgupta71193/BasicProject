@@ -33,6 +33,12 @@ public class TestCase {
 			//driver.get("https://www.google.com");
 			driver.findElement(By.name("q")).sendKeys("hello world");
 		}
+		@Test(priority=3)
+		public void makemytrip()
+		{
+			//driver.get("https://www.google.com");
+			driver.findElement(By.name("q")).sendKeys("hello world");
+		}
 		@AfterTest
 		public void tearDown()
 		{
